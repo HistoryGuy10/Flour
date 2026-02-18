@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &231933439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3553374198224306676, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+  m_PrefabInstance: {fileID: 1193380948647495988}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,8 +388,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Man","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 231933439}
 --- !u!4 &1242912848
 Transform:
   m_ObjectHideFlags: 0
@@ -408,9 +415,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2669291301900272585, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669291301900272585, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669291301900272585, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9250032
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669291301900272585, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.3799594
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669291301900272585, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 44.662
+      objectReference: {fileID: 0}
     - target: {fileID: 3553374198224306676, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
       propertyPath: m_Name
       value: SceneManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644065219629032257, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6502415256287533475, guid: cedd98f5ca066c94a889055b1ec14dcd, type: 3}
       propertyPath: m_LocalPosition.x
